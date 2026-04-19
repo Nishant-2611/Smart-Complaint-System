@@ -1,0 +1,54 @@
+# ======================
+# 📦 Dependencies
+# ======================
+node_modules/
+
+# ======================
+# 🔐 Environment & Secrets
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# 🔑 Sensitive files
+# ======================
+*.pem
+*.key
+secrets.json
+config.json
+
+# ======================
+# 🧾 Logs
+# ======================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# 🖥️ OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# ⚙️ Build / Production
+# ======================
+dist/
+build/
+
+# ======================
+# ⚛️ React / Vite specific
+# ======================
+.vite/
+coverage/
+
+# ======================
+# 🧠 IDE / Editor files
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
